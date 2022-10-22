@@ -387,7 +387,7 @@ const countries = [
     name: 'China',
     capital: 'Beijing',
     languages: ['Chinese'],
-    population: 1377422166,
+    population: 1377422166, 
     flag: 'https://restcountries.eu/data/chn.svg',
     currency: 'Chinese yuan'
   },
