@@ -18,26 +18,26 @@
 ![Thirty Days Of JavaScript](../images/banners/day_1_7.png)
 
 - [📔 Day 7](#-day-7)
-	- [Functions](#functions)
-		- [Function Declaration](#function-declaration)
-		- [Function without a parameter and return](#function-without-a-parameter-and-return)
-		- [Function returning value](#function-returning-value)
-		- [Function with a parameter](#function-with-a-parameter)
-		- [Function with two parameters](#function-with-two-parameters)
-		- [Function with many parameters](#function-with-many-parameters)
-		- [Function with unlimited number of parameters](#function-with-unlimited-number-of-parameters)
-			- [Unlimited number of parameters in regular function](#unlimited-number-of-parameters-in-regular-function)
-			- [Unlimited number of parameters in arrow function](#unlimited-number-of-parameters-in-arrow-function)
-		- [Anonymous Function](#anonymous-function)
-		- [Expression Function](#expression-function)
-		- [Self Invoking Functions](#self-invoking-functions)
-		- [Arrow Function](#arrow-function)
-		- [Function with default parameters](#function-with-default-parameters)
-		- [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
-	- [💻 Exercises](#-exercises)
-		- [Exercises: Level 1](#exercises-level-1)
-		- [Exercises: Level 2](#exercises-level-2)
-		- [Exercises: Level 3](#exercises-level-3)
+  - [Functions](#functions)
+    - [Function Declaration](#function-declaration)
+    - [Function without a parameter and return](#function-without-a-parameter-and-return)
+    - [Function returning value](#function-returning-value)
+    - [Function with a parameter](#function-with-a-parameter)
+    - [Function with two parameters](#function-with-two-parameters)
+    - [Function with many parameters](#function-with-many-parameters)
+    - [Function with unlimited number of parameters](#function-with-unlimited-number-of-parameters)
+      - [Unlimited number of parameters in regular function](#unlimited-number-of-parameters-in-regular-function)
+      - [Unlimited number of parameters in arrow function](#unlimited-number-of-parameters-in-arrow-function)
+    - [Anonymous Function](#anonymous-function)
+    - [Expression Function](#expression-function)
+    - [Self Invoking Functions](#self-invoking-functions)
+    - [Arrow Function](#arrow-function)
+    - [Function with default parameters](#function-with-default-parameters)
+    - [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
+  - [💻 Exercises](#-exercises)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 3](#exercises-level-3)
 
 # 📔 Day 7
 
@@ -197,10 +197,10 @@ console.log(printFullName('Asabeneh', 'Yetayeh'))
 
 ```js
 // function with multiple parameters
-function functionName(parm1, parm2, parm3,...){
+function functionName(parm1, parm2, parm3,...args){
   //code goes here
 }
-functionName(parm1,parm2,parm3,...) // during calling or invoking three arguments needed
+functionName(parm1,parm2,parm3,args) // during calling or invoking three arguments needed
 
 
 // this function takes array as a parameter and sum up the numbers in the array
