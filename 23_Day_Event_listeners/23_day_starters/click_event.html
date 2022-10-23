@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document Object Model</title>
+  </head>
+
+  <body>
+    <button>Click Me</button>
+ <!-- event: click, dbclick -->
+    <script>
+      const button = document.querySelector('button')
+      button.addEventListener('click', e => {
+        console.log('e gives the event listener object:', e)
+        console.log('e.target gives the selected element: ', e.target)
+        console.log(
+          'e.target.textContent gives content of selected element: ',
+          e.target.textContent
+        )
+      })
+    </script>
+
+    <button onclick="clickMe()">Click Me to Alert!</button>
+    <script>
+    const clickMe = () => {
+        alert('We can attach event on HTML element')
+    }
+    </script>
+
+
+    <button class="btn">Double Click Me</button>
+    <script>
+    const button2 = document.querySelector('.btn')
+    button2.addEventListener('dblclick', e => {
+        console.log('double click: ', e)
+        
+    })
+    </script>
+  </body>
+</html>

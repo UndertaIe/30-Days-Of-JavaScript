@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document Object Model:30 Days Of JavaScript</title>
+  </head>
+
+  <body>
+    <h1>Body Mass Index Calculator</h1>
+
+    <input type="text" id="a" placeholder="a: " />
+    <input type="text" id="b" placeholder="b: " />
+    <button>Calc a * b </button>
+
+    <script>
+      const a = document.querySelector('#a')
+      const b = document.querySelector('#b')
+      const button = document.querySelector('button')
+      button.addEventListener('click', () => {
+        ans = parseFloat(a.value) * parseFloat(b.value)
+        alert(`The answer is ${ans}`)
+        console.log(ans)
+      })
+    </script>
+  </body>
+</html>
